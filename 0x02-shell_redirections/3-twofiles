@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd && echo "" && cat /etc/hosts
+cat /etc/passwd | head -n 15 ; echo "..." ; cat /etc/hosts | head -n 10
