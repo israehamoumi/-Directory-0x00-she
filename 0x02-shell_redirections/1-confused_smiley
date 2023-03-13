@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '\u00D4\u006F\u0027'
+echo -e "\xE2\x94\x98(\xC3\x94\x6F)\xE2\x94\x98'"
