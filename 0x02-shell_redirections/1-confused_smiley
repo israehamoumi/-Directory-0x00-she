@@ -1,2 +1,2 @@
-#!/bin/bash
-echo -e '\xF4\x94\x6F\x27'i
+#!/bin/sh
+echo '"(Ôo)\''
