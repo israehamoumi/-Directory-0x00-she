@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "It is a good file that cuts iron without making a noise" > '*\\'"Best School"'\\*$?*****:)'
+echo "Best School" > '*\\'"Best School"'\\*$?*****:)'
