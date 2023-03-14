@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+getent passwd | awk -F: '{printf "%s:%s\n",$1,$6}' | sort
