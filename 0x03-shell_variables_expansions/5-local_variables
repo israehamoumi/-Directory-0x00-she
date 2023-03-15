@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | awk '{print $3}'; printenv | awk -F= '{print $1}'; declare -F | awk '{print $3}'
+for var in $(printenv | cut -d "=" -f 1)  do echo "$var=${!var}"
