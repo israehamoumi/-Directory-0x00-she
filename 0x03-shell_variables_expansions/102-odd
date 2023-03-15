@@ -1,2 +1,2 @@
 #!/bin/bash
-$ set | awk 'NR % 2 == 1'
+$ set  awk 'NR % 2 == 1'
