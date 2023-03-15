@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" $(sed -n '1~2p' <&0)
+printf "%s\n" $(awk 'NR % 2 == 1' -)
