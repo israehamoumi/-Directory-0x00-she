@@ -1,2 +1,2 @@
 #!/bin/bash
-for var in $(printenv | cut -d "=" -f 1)  do echo "$var=${!var}"
+declare -p
