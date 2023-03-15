@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ["$BREATH^$LOVE"]
+BREATH=$BREATH LOVE=$LOVE i=1 RESULT=$BREATH while [[ $i -lt $LOVE ]] do RESULT=$(( RESULT * BREATH )) && i=$(( i + 1 )) done && echo $RESULT
